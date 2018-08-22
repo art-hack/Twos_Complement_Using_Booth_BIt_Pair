@@ -149,7 +149,7 @@ sum+=carry;
 final[i] = sum%2;
 
 if((sum - (sum%2))>1){
-	carry = (sum - (sum%2));
+	carry = (sum - (sum%2)-1);
 }
 else{
 	carry =0;
